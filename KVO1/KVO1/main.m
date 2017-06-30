@@ -32,11 +32,11 @@
 /**
  * 这样B就不会收到c的变化了 及重写了这个方法
  */
-- (void)observeValueForKeyPath:(NSString *)keyPath
-                      ofObject:(id)object
-                        change:(NSDictionary<NSString *, id> *)change
-                       context:(void *)context {
-}
+//- (void)observeValueForKeyPath:(NSString *)keyPath
+//                      ofObject:(id)object
+//                        change:(NSDictionary<NSString *, id> *)change
+//                       context:(void *)context {
+//}
 @end
 
 @interface C : NSObject
